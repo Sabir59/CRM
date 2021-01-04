@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--NOTO SANS A GOOGLE FONT-->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="script/script.js" defer></script>
+		<title>CRM Inbox</title>
+	</head>
+	<body>
+		<div class="container">
+			<!--HEADER IS INCLUDED HERE-->
+			<header class="header">
+				<div class="logo logo-header">
+					<img src="assets/SVG/logo.svg" alt="CRM Logo" class="logo__photo" />
+					<h1 class="logo__text">Bedalizza</h1>
+				</div>
+				<form action="#" class="search">
+					<svg class="search__icon">
+						<use xlink:href="assets/sprite.svg#icon-Search"></use>
+					</svg>
+					<input type="text" class="search__input" placeholder="Search" />
+				</form>
+				<!--USER NAVIGATION STARTS HERE-->
+				<nav class="user-nav">
+					<svg class="user-nav__icon">
+						<use xlink:href="assets/sprite.svg#icon-folder"></use>
+					</svg>
+					<svg class="user-nav__icon">
+						<use xlink:href="assets/sprite.svg#icon-Bell"></use>
+					</svg>
+					<svg class="user-nav__icon">
+						<use xlink:href="assets/sprite.svg#icon-Envelope"></use>
+					</svg>
+					<div class="user-nav__user">
+						<img
+							src="assets/img/user-5.jpg"
+							alt="User Photo"
+							class="user-nav__user--photo"
+						/>
+						<span class="user-nav__user--name">Charlie Grant</span>
+					</div>
+				</nav>
+			</header>
+			<!--MOBILE NAVIGATION IS INCLUDED HERE-->
+			<div class="hamburger-container"></div>
+			<div class="hamburger">
+				&nbsp;
+			</div>
+			<nav class="navigation-mobile">
+				<a href="#" class="navigation-mobile__links">Dashboard</a>
+				<a href="#" class="navigation-mobile__links">Company</a>
+				<a href="#" class="navigation-mobile__links">Schedule</a>
+				<a href="#" class="navigation-mobile__links">Contacts</a>
+				<a href="#" class="navigation-mobile__links">Inbox</a>
+				<a href="#" class="navigation-mobile__links">Reports</a>
+				<a href="#" class="navigation-mobile__links">Activity</a>
+			</nav>
+			<!-- </div> -->
+			<div class="sidebar">
+				<!--CRM LOGO IS INCLUDED HERE-->
+				<div class="logo">
+					<img src="assets/SVG/logo.svg" alt="CRM Logo" class="logo__photo" />
+					<h1 class="logo__text">Bedalizza</h1>
+				</div>
+				<!--NAVIGATION IS INCLUDED HERE-->
+				<nav class="navigation">
+					<a href="#" class="navigation__links">Dashboard</a>
+					<a href="#" class="navigation__links">Company</a>
+					<a href="#" class="navigation__links">Schedule</a>
+					<a href="#" class="navigation__links">Contacts</a>
+					<a href="#" class="navigation__links">Inbox</a>
+					<a href="#" class="navigation__links">Reports</a>
+					<a href="#" class="navigation__links">Activity</a>
+				</nav>
+			</div>
+			<!--CONTENT IS INCLUDED HERE-->
+			<main class="content">
+				<!--INBOX IS INCLUDED HERE-->
+				<section class="inbox">
+					<div class="inbox__header">
+						<span class="inbox__header--label">Inbox</span>
+						<span class="inbox__header--thread-count">3</span>
+						<button type="button" class="inbox__header--add-email">+</button>
+					</div>
+					<!--MESSEGE IS INCLUDED HERE-->
+					<div class="messege">
+						<div class="meesege__user">
+							<img
+								src="assets/img/user-2.png"
+								alt="User Photo"
+								class="messege__user-photo"
+							/>
+						</div>
+
+						<div class="messege__user-details">
+							<span class="messege__user-name">Annie Lynch</span>
+							<h2 class="messege__subject">Aliquam erat volutpat</h2>
+							<p class="messege__preview">
+								Nulla pulvinar ex id orci tempor, id accumsan metus pretium.
+								Proin mollis venenatis magna...
+							</p>
+						</div>
+						<div class="messege__time-stamp">
+							<svg class="messege__icon">
+								<use xlink:href="assets/sprite.svg#icon-Paperclip"></use>
+							</svg>
+							<span class="messege__time">2:02 PM</span>
+						</div>
+					</div>
+					<!--MESSEGE ENDS HERE-->
+					<!--MESSEGE IS INCLUDED HERE-->
+					<div class="messege active">
+						<div class="meesege__user">
+							<img
+								src="assets/img/user-4.jpg"
+								alt="User Photo"
+								class="messege__user-photo"
+							/>
+						</div>
+
+						<div class="messege__user-details">
+							<span class="messege__user-name">Dribble Team</span>
+							<h2 class="messege__subject">How are you getting on?</h2>
+							<p class="messege__preview">
+								Nulla pulvinar ex id orci tempor, id accumsan metus pretium.
+								Proin mollis venenatis magna...
+							</p>
+						</div>
+						<div class="messege__time-stamp">
+							<span class="messege__time">6:42 PM</span>
+						</div>
+					</div>
+					<!--MESSEGE ENDS HERE-->
+					<!--MESSEGE IS INCLUDED HERE-->
+					<div class="messege">
+						<div class="meesege__user">
+							<img
+								src="assets/img/user-3.png"
+								alt="User Photo"
+								class="messege__user-photo"
+							/>
+						</div>
+
+						<div class="messege__user-details">
+							<span class="messege__user-name">Harry Kim</span>
+							<h2 class="messege__subject">Pellentesque habitant morbi</h2>
+							<p class="messege__preview">
+								Nulla pulvinar ex id orci tempor, id accumsan metus pretium.
+								Proin mollis venenatis magna...
+							</p>
+						</div>
+						<div class="messege__time-stamp">
+							<span class="messege__time">4:32 PM</span>
+						</div>
+					</div>
+					<!--MESSEGE ENDS HERE-->
+					<!--MESSEGE IS INCLUDED HERE-->
+					<div class="messege">
+						<div class="meesege__user">
+							<img
+								src="assets/img/user-6.jfif"
+								alt="User Photo"
+								class="messege__user-photo"
+							/>
+						</div>
+
+						<div class="messege__user-details">
+							<span class="messege__user-name">Lura Dawson</span>
+							<h2 class="messege__subject">Duis eget ex eget est soll</h2>
+							<p class="messege__preview">
+								Nulla pulvinar ex id orci tempor, id accumsan metus pretium.
+								Proin mollis venenatis magna...
+							</p>
+						</div>
+						<div class="messege__time-stamp">
+							<span class="messege__time">3:11 AM</span>
+						</div>
+					</div>
+					<!--MESSEGE ENDS HERE-->
+				</section>
+				<!--MESSEGE DETAILS IS INCLUDED HERE-->
+				<section class="messege-details">
+					<div class="messege-details__header">
+						<div class="messege-details__user">
+							<img
+								src="assets/img/user-4.jpg"
+								alt=""
+								class="messege-details__user--photo"
+							/>
+							<span class="messege-details__user--name">Dribble Team</span>
+						</div>
+						<div class="messege-details__recepients">
+							<img
+								src="assets/img/user-6.jfif"
+								alt=""
+								class="messege-details__recepients--photo"
+							/>
+							<img
+								src="assets/img/user-2.png"
+								alt=""
+								class="messege-details__recepients--photo"
+							/>
+							<img
+								src="assets/img/user-4.jpg"
+								alt=""
+								class="messege-details__recepients--photo messege-details__recepients--photo--active"
+							/>
+							<img
+								src="assets/img/user-5.jpg"
+								alt=""
+								class="messege-details__recepients--photo"
+							/>
+						</div>
+						<div class="messege-details__action">
+							<svg class="messege-details__action--icon">
+								<use xlink:href="assets/sprite.svg#icon-back"></use>
+							</svg>
+							<svg class="messege-details__action--icon">
+								<use xlink:href="assets/sprite.svg#icon-trash"></use>
+							</svg>
+							<svg class="messege-details__action--icon">
+								<use xlink:href="assets/sprite.svg#icon-Options"></use>
+							</svg>
+						</div>
+					</div>
+					<!--TEXT IS INCLUDED HERE-->
+					<div class="text">
+						<span class="text__time">2:02 PM</span>
+						<h2 class="text__subject">How are you getting on?</h2>
+						<p class="text__preview">
+							Nulla pulvinar ex id orci tempor, id accumsan metus pretium. Proin
+							mollis venenatis magna, at imperdiet nisi pharetra ac.
+						</p>
+						<p class="text__details">
+							Proin sed turpis nisi. Aenean vestibulum feugiat metus, et
+							ullamcorper risus convallis non. Phasellus malesuada, orci ac
+							viverra rhoncus, nisi leo faucibus lorem, id fringilla nunc massa
+							non malesuada. We must have a meeting tomorrow at 10:00. ipsum
+							primis in faucibus. Lorem ipsum dolor sit amet, cons
+						</p>
+						<div class="text__greetings">Greetings Charlie</div>
+					</div>
+					<div class="attachement">
+						<svg class="attachement__icon">
+							<use xlink:href="assets/sprite.svg#icon-attacement-folder"></use>
+						</svg>
+						<div class="attachement__line">&nbsp;</div>
+						<svg class="attachement__icon">
+							<use xlink:href="assets/sprite.svg#icon-eye"></use>
+						</svg>
+						<svg class="attachement__icon">
+							<use xlink:href="assets/sprite.svg#icon-download"></use>
+						</svg>
+					</div>
+					<div class="format">
+						<svg class="format__icon">
+							<use xlink:href="assets/sprite.svg#icon-Image"></use>
+						</svg>
+						<svg class="format__icon">
+							<use xlink:href="assets/sprite.svg#icon-pdf-2"></use>
+						</svg>
+						<svg class="format__icon">
+							<use xlink:href="assets/sprite.svg#icon-Image"></use>
+						</svg>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
